@@ -1,0 +1,29 @@
+# Build output
+target/
+
+# IDE files
+.idea/
+*.iml
+*.iws
+.vscode/
+.classpath
+.project
+.settings/
+
+# Test artifacts
+reports/*
+!reports/.gitkeep
+
+# Local configuration
+local.properties
+.env
+*.env
+*.keystore
+
+# Application binaries
+*.apk
+*.aab
+
+# OS files
+.DS_Store
+Thumbs.db

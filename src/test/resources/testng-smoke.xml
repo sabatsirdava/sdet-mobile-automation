@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="My Demo App - Android (Smoke)" verbose="1">
+    <listeners>
+        <listener class-name="com.sdet.mobile.listeners.TestListener"/>
+    </listeners>
+
+    <test name="Android Smoke">
+        <groups>
+            <run>
+                <include name="smoke"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="com.sdet.mobile.tests"/>
+        </packages>
+    </test>
+</suite>
